@@ -6,7 +6,7 @@ CORS(server)
 
 @server.route('/')
 def home():
-    return 'Flask server running!'
+    return jsonify('Flask server running!')
 
 
 
